@@ -1,0 +1,107 @@
+.btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    border-radius: 2px;
+    color: #000;
+    /* font-weight: bolder; */
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 0px white;
+}
+
+.normal {
+    background: linear-gradient(to right, #fb8abf, #ffdde1);
+}
+
+.grass {
+    background: linear-gradient(to right, #b2fa59, #38ba26);
+
+}
+
+.fire {
+    background: linear-gradient(to right, #ffed95, #f39333);
+}
+
+.water {
+    background: linear-gradient(to right, #77ddff, #4a91ef);
+}
+
+.bug {
+    background: linear-gradient(to right, #eacda3, #947753);
+}
+
+.poison {
+    background-image: linear-gradient(to right, #ee3f99 0%, #a4c7f9 100%);
+}
+
+.electric {
+    background: linear-gradient(to right, #f7ef7a, #ffee00);
+}
+
+.ground {
+    background: linear-gradient(to right, #f4b660, #d68616);
+}
+
+.fairy {
+    background-image: linear-gradient(to right, #ff95df 0%, #ff7ed6 40%, #fc4248 100%);
+}
+
+.rock {
+    background-image: linear-gradient(to right, #f86c46 0%, #f5be95 100%);
+}
+
+.ghost {
+
+    background-image: linear-gradient(to right, #bdbdbe 0%, #dfeff8 100%);
+}
+
+
+
+
+
+.normal:hover {
+    background: linear-gradient(to left, #fb8abf, #ffdde1);
+}
+
+.grass:hover {
+    background: linear-gradient(to left, #b2fa59, #38ba26);
+
+}
+
+.fire:hover {
+    background: linear-gradient(to left, #ffed95, #f39333);
+}
+
+.water:hover {
+    background: linear-gradient(to left, #77ddff, #4a91ef);
+}
+
+.bug:hover {
+    background: linear-gradient(to left, #eacda3, #947753);
+}
+
+.poison:hover {
+    background-image: linear-gradient(to left, #ee3f99 0%, #a4c7f9 100%);
+}
+
+.electric:hover {
+    background: linear-gradient(to left, #f7ef7a, #ffee00);
+}
+
+.ground:hover {
+    background: linear-gradient(to left, #f4b660, #d68616);
+}
+
+.fairy:hover {
+    background-image: linear-gradient(to left, #ff95df 0%, #ff7ed6 40%, #fc4248 100%);
+}
+
+
+.rock:hover {
+    background-image: linear-gradient(to left, #c79081 0%, #dfa579 100%);
+}
+
+.ghost:hover {
+
+    background-image: linear-gradient(to left, #bdbdbe 0%, #dfeff8 100%);
+}

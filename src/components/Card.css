@@ -1,0 +1,139 @@
+.card {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 9px;
+    transition: all .5s ease;
+    border: 1px solid white;
+}
+
+.card:hover {
+    transform: scale(1.125);
+    /* color: rgba(255, 255, 255, 0.9); */
+    border: solid 2px white;
+    transition: all .3s ease;
+}
+
+
+.idCard {
+    padding: .3rem .4rem;
+    /* border: 1px solid black; */
+    border-radius: 20rem;
+}
+
+
+
+.normal-id {
+    background: linear-gradient(to right, #f8f8f8, #f8f7f7);
+}
+
+.grass-id {
+    background: linear-gradient(to right, #d4ffa0, #daff9e);
+}
+
+.fire-id {
+    background: linear-gradient(to right, #faeeaf, #fee4ca);
+}
+
+.water-id {
+    background: linear-gradient(to right, #afebff, #b5d5ff);
+}
+
+.bug-id {
+    background: linear-gradient(to right, #fff1dd, #ffebd4);
+}
+
+.poison-id {
+    background: linear-gradient(to right, #deacff, #d68bff);
+}
+
+.electric-id {
+    background: linear-gradient(to right, #fffeaf, #fffeb5);
+}
+
+.ground-id {
+    background: linear-gradient(to right, #ffd294, #ffd190);
+}
+
+.fairy-id {
+    background: linear-gradient(to right, #fde2f1, #fcd1e8);
+}
+
+
+
+.pokemonImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.pokemonNameCard {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.pokemonType {
+    text-transform: capitalize;
+}
+
+
+
+.rock-card {
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.ghost-card {
+
+    background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+}
+
+.electric-card {
+
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.bug-card {
+
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+
+.poison-card {
+
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+}
+
+.normal-card {
+
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+.fairy-card {
+
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.fire-card {
+
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.grass-card {
+
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.water-card {
+
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.ground-card {
+
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+
+}
